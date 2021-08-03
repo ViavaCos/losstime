@@ -1,42 +1,26 @@
 {
-  "_from": "losstime",
-  "_id": "losstime@1.1.0",
-  "_inBundle": false,
-  "_integrity": "sha512-1yQXNkfmkQC/22bes0OO5atWIIweU9k8BJfoZ04FkDDUZ74Bu07Oq1PLTzG4kwGUfAwhpPsvvyB8efOnQ8PKcg==",
-  "_location": "/losstime",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "losstime",
-    "name": "losstime",
-    "escapedName": "losstime",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/losstime/-/losstime-1.1.0.tgz",
-  "_shasum": "c0b5fa82618d2bc6d19a873cb2edbd03a1697255",
-  "_spec": "losstime",
-  "_where": "H:\\Code\\s",
-  "author": {
-    "name": "viavacos"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "losstime",
+  "version": "1.1.1",
   "description": "Calculate how long a time stamp has passed.",
   "keywords": [
     "time"
   ],
   "license": "ISC",
   "main": "index.js",
-  "name": "losstime",
+  "author": {
+    "name": "viavacos"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.0"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ViavaCos/losstime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ViavaCos/losstime/issues"
+  },
+  "homepage": "https://github.com/ViavaCos/losstime#readme"
 }
