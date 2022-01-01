@@ -1,6 +1,12 @@
 # losstime
 Calculate how long a time stamp has passed.
 
+## Instalation
+```
+npm i losstime
+```
+
+## Syntax
 ```javascript
 losstime(timestamp, config)
 ```
@@ -15,6 +21,8 @@ losstime(timestamp, config)
 ## Example
 
 ```javascript
+import { losstime } from 'losstime';
+
 losstime() // "刚刚";
 
 var oneMinutes = 60 * 1000;

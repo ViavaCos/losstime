@@ -56,12 +56,7 @@ function losstime(time, config) {
         timeStr = _config.justNow;
     }
 
-    console.log(_config)
     return timeStr;
-
-    // console.log(day, hours, minutes);
 }
 
-console.log(losstime())
-
-// module.exports.losstime = losstime;
+module.exports.losstime = losstime;
